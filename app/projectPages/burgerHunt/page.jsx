@@ -24,7 +24,7 @@ export default function burgerHunt() {
           <a href="https://burger-hunt.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
-          <a href="https://github.com/SANTAZ10/Dashboard" target="_blank">
+          <a href="https://github.com/SANTAZ10/burgerHunt" target="_blank">
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>
