@@ -3,6 +3,7 @@ import notewriteImg from "@/public/assets/projects/notewrite.PNG";
 import santazBlogImg from "@/public/assets/projects/santazblog.PNG";
 import dataPulseImg from "@/public/assets/projects/datapulse.PNG";
 import burgerhuntImg from "@/public/assets/projects/burgerhunt.png"
+import santazAdminImg from "@/public/assets/projects/santazadmin.png"
 import ProjectItem from "./ProjectItem";
 
 export default function Projects() {
@@ -41,6 +42,12 @@ export default function Projects() {
             backgroundImg={burgerhuntImg}
             projectUrl="/projectPages/burgerHunt"
             stack="Next Js"
+          />
+          <ProjectItem
+            title="Santaz Admin"
+            backgroundImg={santazAdminImg}
+            projectUrl="/projectPages/santazAdmin"
+            stack="React Js"
           />
         </div>
       </div>
