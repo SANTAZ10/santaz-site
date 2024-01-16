@@ -4,6 +4,7 @@ import santazBlogImg from "@/public/assets/projects/santazblog.PNG";
 import dataPulseImg from "@/public/assets/projects/datapulse.PNG";
 import burgerhuntImg from "@/public/assets/projects/burgerhunt.png"
 import santazAdminImg from "@/public/assets/projects/santazadmin.png"
+import sumzImg from "@/public/assets/projects/sumz.png"
 import ProjectItem from "./ProjectItem";
 
 export default function Projects() {
@@ -25,12 +26,7 @@ export default function Projects() {
             projectUrl="/projectPages/skysphere"
             stack="React Js"
           />
-          <ProjectItem
-            title="Notewrite"
-            backgroundImg={notewriteImg}
-            projectUrl="/projectPages/notewrite"
-            stack="React Js"
-          />
+         
           <ProjectItem
             title="Santaz Blog"
             backgroundImg={santazBlogImg}
@@ -47,6 +43,12 @@ export default function Projects() {
             title="Santaz Admin"
             backgroundImg={santazAdminImg}
             projectUrl="/projectPages/santazAdmin"
+            stack="React Js"
+          />
+          <ProjectItem
+            title="Sumz"
+            backgroundImg={sumzImg}
+            projectUrl="/projectPages/sumz"
             stack="React Js"
           />
         </div>
